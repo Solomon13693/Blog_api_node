@@ -1,6 +1,6 @@
 const asyncHandler = require('../middleware/asyncHandler')
 const User = require('../models/User')
-const ErrorResponse = require('../utils/ErrorResponse')
+const ErrorResponse = require('../utils/errorResponse')
 const crypto = require('crypto')
 
 // @desc    Register user

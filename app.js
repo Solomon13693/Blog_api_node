@@ -8,7 +8,7 @@ const app = express()
 const path = require('path')
 
 const connectDB = require('./config/Database');
-const ErrorResponse = require('./utils/ErrorResponse');
+const ErrorResponse = require('./utils/errorResponse');
 
 // INIT DB CONNECTION
 connectDB()

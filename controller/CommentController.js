@@ -2,7 +2,7 @@ const asyncHandler = require('../middleware/asyncHandler')
 const Comment = require('../models/Comment')
 const Post = require('../models/Post')
 const User = require('../models/User')
-const ErrorResponse = require('../utils/ErrorResponse')
+const ErrorResponse = require('../utils/errorResponse')
 const successResponse = require('../utils/successResponse')
 
 // @desc    Create Post

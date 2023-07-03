@@ -2,7 +2,7 @@ const asyncHandler = require('../middleware/asyncHandler')
 const Post = require('../models/Post')
 const User = require('../models/User')
 const Category = require('../models/Category')
-const ErrorResponse = require('../utils/ErrorResponse')
+const ErrorResponse = require('../utils/errorResponse')
 const successResponse = require('../utils/successResponse')
 
 

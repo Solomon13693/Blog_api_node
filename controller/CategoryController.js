@@ -1,6 +1,6 @@
 const asyncHandler = require('../middleware/asyncHandler')
 const Category = require('../models/Category')
-const ErrorResponse = require('../utils/ErrorResponse')
+const ErrorResponse = require('../utils/errorResponse')
 
 // Create Category
 // Protected Route

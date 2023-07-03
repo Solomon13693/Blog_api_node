@@ -1,7 +1,7 @@
 const asyncHandler = require('../middleware/asyncHandler')
 const BookMark = require('../models/BookMark')
 const Post = require('../models/Post')
-const ErrorResponse = require('../utils/ErrorResponse')
+const ErrorResponse = require('../utils/errorResponse')
 const successResponse = require('../utils/successResponse')
 
 exports.BookMarkPost = asyncHandler(async (req, res, next) => {
